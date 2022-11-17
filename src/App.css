@@ -1,38 +1,99 @@
-.App {
+.header{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.App{
+  padding: 0px 70px;
+}
+
+.input-box{
+  display: flex;
+}
+
+.para{
+  border: 1px solid black;
+  margin: 0%;
+  padding: 20px;
+  font-size: large;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.data{
+  
+  border: 1px solid black;
+  padding: 20px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.asider{
+  width: 35%;
+  float: right;
+  margin-top: -20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  margin-top: 70px;
+  width:65%;
+}
+
+.input{
+  height: 40px;
+  margin-right: 40px;
+  width: 230px;
+  padding: 5px;
+  padding-left: 30px;
+}
+
+.buy{
+  margin-top: 70px;
+}
+.radio{
+  padding: 10px;
+}
+.quantity{
+  margin-left: 32%;
+  margin-top: -6%;
+}
+
+.button{
+  margin-left: 50%;
+  margin-top: -6%;
+  
+}
+button{
+  width: 80px;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  
+}
+
+.footer{
+  width: 97vw;
+  margin-top: 70px;
+  margin-left: -45px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  height: 60px;
+  background-color: #a2aaad;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+th{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  width: 70%;
+  margin: 3%;
+  
 }
+span{
+  margin-top: -8%;
+  float: right;
+}
+
+
